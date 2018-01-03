@@ -1,11 +1,9 @@
 html {
-  font-family: 'Encode Sans Expanded', sans-serif;
-  font-family: 'Archivo Black', sans-serif;
+  background-color: #fff;
 }
 
-/*banner*/
 .banner {
-  background: url(../images/banner.png) 70% center / cover no-repeat;
+  background: url("../images/banner.png") 70% center / cover no-repeat;
   height: 425px;
 }
 
@@ -14,10 +12,9 @@ html {
   top: 50px;
   left: 50%;
   transform: translateX(-50%);
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, .3);
 }
 
-/*Navigation*/
 .nav a {
   text-decoration: none;
   color: #0cbc9f;
@@ -31,7 +28,6 @@ html {
   display: inline-block;
 }
 
-/*hover*/
 .hover-box {
   color: #fff;
 }
@@ -61,17 +57,16 @@ html {
   transform: scale(1.1);
 }
 
-/* buttons */
 .button {
-  border: 1px solid #347EA5;
-  font-family: 'Montserrat', sans-serif;
+  border: 1px solid #0cbc9f;
+  font-family: "Encode Sans Expanded", sans-serif;
   padding: .7em 1.3em;
   text-transform: uppercase;
 }
 
 .button-small {
-  border: 1px solid #347EA5;
-  font-family: 'Montserrat', sans-serif;
+  border: 1px solid #0cbc9f;
+  font-family: "Encode Sans Expanded", sans-serif;
   padding: .7em 1.2em;
   text-transform: uppercase;
 }
@@ -103,17 +98,14 @@ html {
   color: white;
 }
 
-.button {
-  border: 1px solid #347EA5;
-  padding: .7em 1.3em;
-  text-transform: uppercase;
-}
-
-/*body*/
 p {
   font-family: "Encode Sans Expanded", sans-serif;
 }
 
-h1,h2,h3,h4,h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   font-family: "Archivo Black", sans-serif;
 }

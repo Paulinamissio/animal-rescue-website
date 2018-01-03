@@ -2,9 +2,76 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title></title>
+  <title>signup</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="css/modules.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
+  <link href="css/type.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Ranga" rel="stylesheet">
 </head>
 <body>
+  <header>
+    <nav class="text-center island">
+      <ul class="nav-links list-group-inline push-none nav grid">
 
+        <li class="kilo unit xs-1-3 s-1-3 m-1-3 l-1-3"><a href="tour.html">Home</a></li>
+        <li class="kilo unit xs-1-3 s-1-3 m-1-3 l-1-3"><a href="pricing.html">Rescues</a></li>
+      </ul>
+    </nav>
+    <div class="grid island">
+      <h1 class="yotta unit xs-1 s-1 m-1 l pad-t-2 text-center push-r">Adopt now!</h1>
+      <p class="milli unit xs-1 s-1 m-1 l-1 text-center push-r pad-b-2">Adopt a new member of your family!</p>
+    </div>
+  </header>
+
+  <main class="wrapper">
+    <div class="max-length unit xs-1-3 s-1-3 m-1-3 l-1-2 grid">
+      <h2 class="pad-t text-center push-1-4">Adopt now</h2>
+    </div>
+    <form action="https://formspree.io/paulinamssio@gmail.com" method="POST" class="max-length gutter-2 pad-t pad-b push-2">
+      <div class="push">
+        <label for="name">Name</label>
+        <input id="name" name="name">
+      </div>
+      <div class="push">
+        <label for="email">Email</label>
+        <input id="email" type="email" placeholder="me@me.ca">
+      </div>
+      <div class="push">
+        <label for="password">Password</label>
+        <input id="password" type="password">
+      </div>
+
+      <div class="push">
+        <button type="submit" class="btn">Submit</button>
+        <p class="pad-t">Signed up already? Click <a href="#">here</a> to login.</p>
+      </div>
+    </form>
+  </main>
+
+  <footer class="gutter pad-t">
+    <div class="footer-content grid">
+    </div>
+    <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3">
+      <div>
+        <p class="social-header mega bold push-0">Follow Us</p>
+      </div>
+      <ul class="list-group-inline">
+        <li>
+        </li>
+        <li>
+          <a href="#">
+            <i><img class="img-s social-icon" src="images/icon-instagram.png" alt=""></i>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i><img class="img-s social-icon" src="images/icon-twitter.png" alt=""></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
 </body>
 </html>

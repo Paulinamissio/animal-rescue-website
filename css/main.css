@@ -1,4 +1,7 @@
-html {}
+html {
+  font-family: 'Encode Sans Expanded', sans-serif;
+  font-family: 'Archivo Black', sans-serif;
+}
 
 /*banner*/
 .banner {
@@ -17,13 +20,13 @@ html {}
 /*Navigation*/
 .nav a {
   text-decoration: none;
-  color: #ff004e;
+  color: #0cbc9f;
   margin: 0;
   border-radius: 2em;
 }
 
 .nav a:hover {
-  background-color: #ff004e;
+  background-color: #0cbc9f;
   color: #fff;
   display: inline-block;
 }
@@ -75,11 +78,11 @@ html {}
 
 .button-black {
   color: #fff;
-  border-color: #0000;
+  border-color: #0cbc9f;
 }
 
 .button-black:hover {
-  background-color: #0000;
+  background-color: #0cbc9f;
   color: #fff;
   transition: all .35s;
 }
@@ -91,7 +94,7 @@ html {}
 
 .button-white:hover {
   background-color: #fff;
-  color: #0000;
+  color: #0cbc9f;
   transition: all .35s;
 }
 
@@ -104,4 +107,13 @@ html {}
   border: 1px solid #347EA5;
   padding: .7em 1.3em;
   text-transform: uppercase;
+}
+
+/*body*/
+p {
+  font-family: "Encode Sans Expanded", sans-serif;
+}
+
+h1,h2,h3,h4,h5 {
+  font-family: "Archivo Black", sans-serif;
 }

@@ -8,6 +8,7 @@ html {
 }
 
 .banner-content {
+  display: inline-block;
   width: 100%;
   top: 50px;
   left: 50%;
@@ -61,14 +62,12 @@ html {
   border: 1px solid #0cbc9f;
   font-family: "Encode Sans Expanded", sans-serif;
   padding: .7em 1.3em;
-  text-transform: uppercase;
 }
 
 .button-small {
   border: 1px solid #0cbc9f;
   font-family: "Encode Sans Expanded", sans-serif;
   padding: .7em 1.2em;
-  text-transform: uppercase;
 }
 
 .button-black {

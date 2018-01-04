@@ -93,7 +93,7 @@ html {
 }
 
 .btn {
-  background-color: #0000;
+  background-color: #0cbc9f;
   color: white;
 }
 
@@ -117,7 +117,7 @@ h5 {
 
 .skip-links a {
   position: absolute;
-  background-color: #000;
+  background-color: #0cbc9f;
   color: #fff;
   padding: .5em .75em;
 }

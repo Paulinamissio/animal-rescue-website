@@ -2,9 +2,14 @@ html {
   background-color: #fff;
 }
 
+.menu{
+  margin-left: 890px;
+}
+
 .banner {
+  padding-top: 10px;
   background: url("../images/banner.png") 70% center / cover no-repeat;
-  height: 425px;
+  height: 420px;
 }
 
 .banner-content {

@@ -16,6 +16,19 @@ html {
   background-color: rgba(0, 0, 0, .3);
 }
 
+.skip-links {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.skip-links a {
+  position: absolute;
+  background-color: #0cbc9f;
+  color: #fff;
+  padding: .5em .75em;
+}
+
 .nav a {
   text-decoration: none;
   color: #0cbc9f;
@@ -24,7 +37,7 @@ html {
 }
 
 .nav a:hover {
-  background-color: #0cbc9f;
+  background-color: #fff;
   color: #fff;
   display: inline-block;
 }
@@ -76,7 +89,7 @@ html {
 }
 
 .button-black:hover {
-  background-color: #0cbc9f;
+  background-color: #fff;
   color: #fff;
   transition: all .35s;
 }
@@ -97,6 +110,11 @@ html {
   color: white;
 }
 
+.btn-nav {
+  background-color: black;
+  color: #0cbc9f;
+}
+
 p {
   font-family: "Encode Sans Expanded", sans-serif;
 }
@@ -107,17 +125,4 @@ h3,
 h4,
 h5 {
   font-family: "Archivo Black", sans-serif;
-}
-
-.skip-links {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-}
-
-.skip-links a {
-  position: absolute;
-  background-color: #0cbc9f;
-  color: #fff;
-  padding: .5em .75em;
 }

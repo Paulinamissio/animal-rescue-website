@@ -142,3 +142,7 @@ h5 {
 .footer {
   padding-top: .9em;
 }
+
+.wrapper {
+    text-align: center;
+}

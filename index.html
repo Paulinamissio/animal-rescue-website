@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-ca">
+
 <head>
   <meta charset="utf-8">
   <title>Loyal Rescue</title>
@@ -12,35 +13,37 @@
   <link href="css/main.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Archivo+Black|Encode+Sans+Expanded" rel="stylesheet">
 </head>
+
 <body>
 
   <ul class="skip-links">
     <li><a href="#nav" tabindex="0">Skip to navigation</a></li>
     <li><a href="#main">Skip to main</a></li>
   </ul>
-  <main role="main" id="main" tabindex="0">
-    <header role="banner">
 
-      <div class="masthead">
-        <div class="banner relative">
-          <div class="menu text-center">
-            <nav role="navigation" id="nav" tabindex="0">
-              <ol class="list-group-inline">
-                <li><a class="btn-nav btn-ghost" href="index.html">Home</a></li>
-                <li><a class="btn-nav btn-ghost" href="adopt.html">Adoption</a></li>
-                <li><a class="btn-nav btn-ghost" href="rescues.html">Rescues</a></li>
-              </ol>
-            </nav>
-          </div>
-          <div class="banner-content absolute text-center gutter pad-t pad-b">
-            <h1 class="white nina push-0">Loyal</h1>
-            <h2 class="white">Find your new best friend</h2>
-            <a class="btn btn-ghost" href="#">ADOPT NOW</a>
-          </div>
+  <header role="banner">
+
+    <div class="masthead">
+      <div class="banner relative">
+        <div class="menu text-center">
+          <nav role="navigation" id="nav" tabindex="0">
+            <ol class="list-group-inline">
+              <li><a class="btn-nav btn-ghost" href="index.html">Home</a></li>
+              <li><a class="btn-nav btn-ghost" href="adopt.html">Adoption</a></li>
+              <li><a class="btn-nav btn-ghost" href="rescues.html">Rescues</a></li>
+            </ol>
+          </nav>
+        </div>
+        <div class="banner-content absolute text-center gutter pad-t pad-b">
+          <h1 class="white nina push-0">Loyal</h1>
+          <h2 class="white">Find your new best friend</h2>
+          <a class="btn btn-ghost" href="#">ADOPT NOW</a>
         </div>
       </div>
-    </header>
+    </div>
+  </header>
 
+  <main role="main" id="main" tabindex="0">
     <section class="text-center gutter pad-t-2 pad-b-2">
       <h3 class="black nina">Adoption</h3>
       <p>all the animals avalible to adopt</p>
@@ -94,35 +97,36 @@
       <h2 class="pad-t text-center push-1-4">Adopt</h2>
       <p>All dogs need a loving home.</p>
     </div>
+
+    <section class="contact pad-t-2 pad-b-2 text-center">
+      <h3 class="black nina">Contact Us</h3>
+
+      <form class="island-1-2 wrapper" method="POST" action="https://formspree.io/paulinamssio@gmail.com">
+
+        <div class="push one two text-left">
+          <label for="name">Name</label>
+          <input id="name" name="name">
+        </div>
+
+        <div class="push one text-left">
+          <label for="email">E-mail</label>
+          <input id="email" type="email" name="email">
+        </div>
+
+        <div class="push text-left">
+          <label for="details">Message</label>
+          <textarea id="details" name="message" required></textarea>
+        </div>
+
+        <button class="button-small button-black" type="submit">Send Message</button>
+      </form>
+    </section>
   </main>
-
-  <section class="contact pad-t-2 pad-b-2 text-center">
-    <h3 class="black nina">Contact Us</h3>
-
-    <form class="island-1-2 wrapper" method="POST" action="https://formspree.io/paulinamssio@gmail.com">
-
-      <div class="push one two text-left">
-        <label for="name">Name</label>
-        <input id="name" name="name">
-      </div>
-
-      <div class="push one text-left">
-        <label for="email">E-mail</label>
-        <input id="email" type="email" name="email">
-      </div>
-
-      <div class="push text-left">
-        <label for="details">Message</label>
-        <textarea id="details" name="message" required></textarea>
-      </div>
-
-      <button class="button-small button-black" type="submit">Send Message</button>
-    </form>
-  </section>
   <footer class="footer gutter-1-2" role="contentinfo" tabindex="0">
     <div class="wrapper pad-b">
       <small class="micro">Loyal Rescue © 2017</small>
     </div>
   </footer>
 </body>
+
 </html>

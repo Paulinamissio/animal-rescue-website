@@ -8,7 +8,7 @@ html {
 
 .banner {
   padding-top: 10px;
-  background: url("../images/banner.png") 70% center / cover no-repeat;
+  background: url("../images/banner1.jpg") 70% center / cover no-repeat;
   height: 420px;
 }
 
@@ -107,11 +107,12 @@ h5 {
 }
 
 .contact {
-  background-color: #ffe9e9;
+  background-color:#f9d7d7;
 }
 
 .footer {
   padding-top: .9em;
+  color: white;
 }
 
 .wrapper {
@@ -119,16 +120,16 @@ h5 {
 }
 
 .adopt {
-  background-color: #ffe9e9;
+  background-color: #f9d7d7;
 }
 
 .pink {
-  color: #ffe9e9;
+  color: #f9d7d7;
   font-family: "Encode Sans Expanded", sans-serif;
 }
 
 .list {
-  background-color: #ffe9e9;
+  background-color: #f9d7d7;
 }
 
 .hover-box {
@@ -158,4 +159,12 @@ h5 {
 .hover-box:hover .hover-box-img {
   filter: grayscale(0);
   transform: scale(1.1);
+}
+
+.white {
+  color: white;
+}
+
+.green {
+  color: #0cbc9f;
 }

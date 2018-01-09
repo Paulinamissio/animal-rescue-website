@@ -136,7 +136,7 @@ h5 {
 }
 
 .contact {
-  background-color: lightgrey;
+  background-color: #ffe9e9;
 }
 
 .footer {
@@ -145,4 +145,17 @@ h5 {
 
 .wrapper {
   text-align: center;
+}
+
+.adopt {
+  background-color: #ffe9e9;
+}
+
+.pink {
+  color: #ffe9e9;
+  font-family: "Encode Sans Expanded", sans-serif;
+}
+
+.list {
+  background-color: #ffe9e9;
 }

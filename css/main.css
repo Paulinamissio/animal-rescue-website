@@ -18,6 +18,12 @@ html {
   height: 420px;
 }
 
+.banner-rescue {
+  padding-top: 10px;
+  background: url("../images/puppy.jpg") 80% center / cover no-repeat;
+  height: 420px;
+}
+
 
 .banner-content {
   display: inline-block;

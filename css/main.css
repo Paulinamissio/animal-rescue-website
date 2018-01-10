@@ -12,6 +12,13 @@ html {
   height: 420px;
 }
 
+.banner-adopt {
+  padding-top: 10px;
+  background: url("../images/puppy1.jpg") 80% center / cover no-repeat;
+  height: 420px;
+}
+
+
 .banner-content {
   display: inline-block;
   color: white;
@@ -162,4 +169,5 @@ h5 {
 
 .green {
   color: black;
+  font-family: "Encode Sans Expanded", sans-serif;
 }

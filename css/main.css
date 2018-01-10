@@ -27,8 +27,7 @@ html {
 .hours {
   width: 40%;
   text-align: left;
-  font-size: 12px;
-  margin: 25px 25px;
+  margin: 25px;
   padding: 0;
   display: inline-block;
 }

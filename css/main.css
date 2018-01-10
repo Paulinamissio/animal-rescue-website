@@ -8,7 +8,7 @@ html {
 
 .banner {
   padding-top: 10px;
-  background: url("../images/banner1.jpg") 70% center / cover no-repeat;
+  background: url("../images/banner1.jpg") 80% center / cover no-repeat;
   height: 420px;
 }
 
@@ -51,7 +51,7 @@ html {
   border: 1px solid #0cbc9f;
   font-family: "Encode Sans Expanded", sans-serif;
   padding: .7em 1.3em;
-  color: #e86776;
+  color: black;
 }
 
 .button-black {
@@ -157,9 +157,10 @@ h5 {
 }
 
 .white {
-  color: #e86776;
+  color: #ce4d5f;
 }
 
 .green {
   color: black;
+  font-family: "Encode Sans Expanded", sans-serif;
 }

@@ -30,7 +30,6 @@ html {
 
 .skip-links a {
   position: absolute;
-  background-color: #0cbc9f;
   color: #fff;
   padding: .5em .75em;
 }
@@ -52,12 +51,7 @@ html {
   border: 1px solid #0cbc9f;
   font-family: "Encode Sans Expanded", sans-serif;
   padding: .7em 1.3em;
-}
-
-.button-small {
-  border: 1px solid #0cbc9f;
-  font-family: "Encode Sans Expanded", sans-serif;
-  padding: .7em 1.2em;
+  color: #e86776;
 }
 
 .button-black {
@@ -83,8 +77,9 @@ html {
 }
 
 .btn {
-  background-color: #0cbc9f;
-  color: black;
+  border: 1px solid #0cbc9f;
+  font-family: "Encode Sans Expanded", sans-serif;
+  padding: .7em 1.2em;
 }
 
 .btn-nav {
@@ -107,12 +102,12 @@ h5 {
 }
 
 .contact {
-  background-color:#f9d7d7;
+  background-color: #f9d7d7;
 }
 
 .footer {
   padding-top: .9em;
-  color: white;
+  color: black;
 }
 
 .wrapper {
@@ -162,9 +157,9 @@ h5 {
 }
 
 .white {
-  color: white;
+  color: #e86776;
 }
 
 .green {
-  color: #0cbc9f;
+  color: black;
 }
